@@ -15,4 +15,5 @@ def find_min_in_nested_arrays(src)
     min_per_day << lowest_temp
     row += 1 
   end
+  min_per_day
 end
