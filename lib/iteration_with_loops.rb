@@ -3,10 +3,10 @@ def find_min_in_nested_arrays(src)
   # Produce a new Array that contains the smallest number of each of the nested arrays
   min_per_day = []
   row = 0 
-  while row < src.length do 
+  while row < src.count do 
     element = 0 
     lowest_temp = 100 
-    while element < src[row].length do
+    while element < src[row].count do
       if src[row][element] < lowest_temp
         lowest_temp = src[row][element]
       end
